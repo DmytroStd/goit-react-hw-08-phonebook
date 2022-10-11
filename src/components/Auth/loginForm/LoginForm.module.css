@@ -1,0 +1,27 @@
+.form {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.loginBox {
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
+
+.btn {
+    margin-right: auto;
+    margin-left: auto;
+    width: 60px;
+
+}
