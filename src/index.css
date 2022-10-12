@@ -8,11 +8,23 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
+  background: rgb(9, 9, 9);
+  background: linear-gradient(90deg, rgba(9, 9, 9, 1) 47%, rgba(231, 228, 34, 1) 79%, rgba(253, 250, 29, 1) 100%);
 
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+a {
+  color: rgb(65, 65, 65);
+  text-decoration: none;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
 }

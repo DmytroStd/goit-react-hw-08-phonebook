@@ -1,19 +1,26 @@
 import instance from './authApi';
 
 export const getContactsFromApi = async () => {
-  const { data } = await instance.get('/contacts');
-  return data;
+  try {
+    const { data } = await instance.get('/contacts');
+    return data;
+  } catch (error) {
+    throw error;
+  }
 };
 
 export const addContactFromApi = async data => {
-  // try/catch(throw)
-  const { data: result } = await instance.post('/contacts', data);
-
-  return result;
+  try {
+    const { data: result } = await instance.post('/contacts', data);
+    return result;
+  } catch (error) {}
 };
 
 export const deleteContactFromApi = async id => {
-  // try/catch(throw)
-  const { data } = await instance.delete(`/contacts/${id}`);
-  return data;
+  try {
+    const { data } = await instance.delete(`/contacts/${id}`);
+    return data;
+  } catch (error) {
+    throw error;
+  }
 };

@@ -7,7 +7,7 @@
 .input {
     margin-bottom: 10px;
     border-radius: 5px;
-    border-color: orangered;
-    color: orangered;
+    border-color: yellow;
+    color: rgb(5, 5, 68);
     outline-style: none;
 }

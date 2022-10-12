@@ -36,9 +36,7 @@ const ContactsPage = () => {
   }, [dispatch]);
 
   const addContact = data => {
-    console.log('fff');
     dispatch(addContactFromApi(data));
-    // dispatch({ type: 'test' });
   };
 
   const deleteContact = id => {

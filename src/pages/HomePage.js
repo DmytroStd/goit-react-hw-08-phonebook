@@ -1,5 +1,6 @@
 import React from 'react';
 import { useAuth } from '../components/hooks/useAuth';
+import styles from '../components/Auth/userMenu/UserMenu.module.css';
 
 const HomePage = () => {
   const { user } = useAuth();
@@ -9,7 +10,7 @@ const HomePage = () => {
     <>
       {isLoggedIn ? (
         <div className="">
-          <h1>hello, {user.name}</h1>
+          <h1 className={styles.title}>hello, {user.name.toUpperCase()}</h1>
         </div>
       ) : (
         <div className="">

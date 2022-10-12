@@ -20,7 +20,6 @@ const ContactForm = ({ onSubmit }) => {
   };
 
   const handleSubmit = event => {
-    console.log('qwe');
     event.preventDefault();
     onSubmit({ ...state });
     setState({ ...initialState });

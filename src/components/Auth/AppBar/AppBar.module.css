@@ -2,6 +2,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     margin-bottom: 16px;
-    border-bottom: 1px solid #2a363b;
+    border-bottom: 1px solid #d1f408;
+    background: rgb(9, 9, 9);
+    background: linear-gradient(270deg, rgba(9, 9, 9, 1) 47%, rgba(253, 250, 29, 1) 100%, rgba(231, 228, 34, 1) 100%);
 }

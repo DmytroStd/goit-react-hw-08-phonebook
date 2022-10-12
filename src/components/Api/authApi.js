@@ -23,7 +23,6 @@ export const signup = async data => {
 
 // for Login
 export const login = async data => {
-  console.log('login');
   const { data: result } = await instance.post('users/login', data);
   setToken(result.token);
   return result;
