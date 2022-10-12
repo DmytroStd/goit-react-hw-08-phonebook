@@ -45,12 +45,7 @@ export const App = () => {
               />
             }
           />
-          {/* <Route
-          path="/home"
-          element={
-            <RestrictedRoute redirectTo="/login" component={<HomePage />} />
-          }
-        /> */}
+          <Route path="/home" element={<HomePage />} />
           <Route
             path="/home"
             element={<PrivateRoute component={<HomePage />} />}
