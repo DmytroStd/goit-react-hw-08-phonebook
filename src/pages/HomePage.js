@@ -14,7 +14,7 @@ const HomePage = () => {
         </div>
       ) : (
         <div className="">
-          <h1>please log in or register</h1>
+          <h1 className={styles.title}>please login or register</h1>
         </div>
       )}
     </>
