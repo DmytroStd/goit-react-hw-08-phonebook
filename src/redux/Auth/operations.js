@@ -1,4 +1,3 @@
-import axios from 'axios';
 import { createAsyncThunk } from '@reduxjs/toolkit';
 import * as api from '../../components/Api/authApi';
 
@@ -40,7 +39,6 @@ export const logIn = createAsyncThunk(
   'auth/login',
   async (credentials, thunkAPI) => {
     try {
-      console.log(credentials);
       const data = await api.login(credentials);
 
       // After successful login, add the token to the HTTP header
