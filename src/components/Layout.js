@@ -4,7 +4,7 @@ import { AppBar } from '../components/Auth/AppBar/AppBar';
 import { Suspense } from 'react';
 import styles from '../components/Contacts/container/Container.module.css';
 // import { useAuth } from './hooks/useAuth';
-import HomePage from 'pages/HomePage';
+// import HomePage from 'pages/HomePage';
 
 export const Layout = () => {
   // const { isLoggedIn } = useAuth();
@@ -22,7 +22,7 @@ export const Layout = () => {
         )} */}
         {/* <HomePage /> */}
         <Suspense fallback={null}>
-          <HomePage />
+          {/* <HomePage /> */}
           <Outlet />
         </Suspense>
         {/* <Toaster position="top-right" reverseOrder={false} /> */}
