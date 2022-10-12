@@ -14,9 +14,10 @@ li {
     margin-right: auto;
     border-radius: 30px;
     box-shadow: 0px 0px 14px 0px yellow;
-
+    text-shadow: 1px 1px 12px rgb(238, 238, 13);
     color: yellow;
     background-color: rgba(0, 0, 0, 0.934);
+    /* background: linear-gradient(270deg, rgba(9, 9, 9, 1) 47%, rgba(253, 250, 29, 1) 100%, rgba(231, 228, 34, 1) 100%); */
     margin-top: 30px;
 }
 
