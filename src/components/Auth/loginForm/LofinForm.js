@@ -19,7 +19,7 @@ export const LoginForm = () => {
 
   return (
     <div className={styles.loginBox}>
-      <title>Login</title>
+      {/* <h2>Login</h2> */}
       <form className={styles.form} onSubmit={handleSubmit} autoComplete="off">
         <label className={styles.label}>
           Email

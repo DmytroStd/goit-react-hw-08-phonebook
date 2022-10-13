@@ -25,7 +25,7 @@ export const App = () => {
   ) : (
     <Suspense fallback={<p>Loading...</p>}>
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/" redirectTo="/home" element={<Layout />}>
           {/* <Route path="/" element={<HomePage />} /> */}
           <Route
             path="/register"
@@ -53,7 +53,7 @@ export const App = () => {
           <Route
             path="/contacts"
             element={
-              <PrivateRoute redirectTo="/login" component={<ContactsPage />} />
+              <PrivateRoute redirectTo="/home" component={<ContactsPage />} />
             }
           />
         </Route>
