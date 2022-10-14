@@ -1,5 +1,3 @@
-/////done
-
 import { createReducer } from '@reduxjs/toolkit';
 
 import { setFilter } from './filterActions';

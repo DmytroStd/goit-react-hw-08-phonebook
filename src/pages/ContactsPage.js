@@ -61,7 +61,6 @@ const ContactsPage = () => {
           <p className={styles.text}>your phonebook is empty</p>
         </div>
       )}
-      {/* <Filter value={filter} onChange={changeFilter} /> */}
       {!loading && contacts.length > 0 && (
         <ContactList
           contacts={filtredContacts}

@@ -21,13 +21,6 @@ export const Navigation = () => {
           </NavLink>
         </>
       )}
-      {/* {!isLoggedIn && (
-        <>
-          <NavLink className={css.link} to="/home">
-            home
-          </NavLink>
-        </>
-      )} */}
     </nav>
   );
 };

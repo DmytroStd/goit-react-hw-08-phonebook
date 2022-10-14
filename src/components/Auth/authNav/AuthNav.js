@@ -7,12 +7,6 @@ const getClassName = ({ isActive }) => {
 
 export const AuthNav = () => {
   return (
-    // <div>
-    //   <div>
-    //     <NavLink className={css.link} to="/home">
-    //       home
-    //     </NavLink>
-    //   </div>
     <div>
       <NavLink className={getClassName} to="/register">
         register
@@ -21,6 +15,5 @@ export const AuthNav = () => {
         log In
       </NavLink>
     </div>
-    // </div>
   );
 };
